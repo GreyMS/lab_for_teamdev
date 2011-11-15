@@ -13,3 +13,8 @@ int fact(int Num)
 	else
 		return Num * fact(Num - 1);
 }
+
+int Get1()
+{
+	return 1;
+}
