@@ -8,9 +8,13 @@ void main()
 
 int fact(int Num)
 {
-	int res = 1;
-	for (int i = Num; i > 0; i--)
-		res *= i;
+	if (Num == 1)
+		return 1;
+	else
+		return Num * fact(Num - 1);
+}
 
-	return res;
+int Get1()
+{
+	return 1;
 }
